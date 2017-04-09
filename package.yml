@@ -1,19 +1,19 @@
-name        : gnome-app-templates
-version     : 1
-release     : 2
-source      :
+name       : gnome-app-templates
+version    : 1
+release    : 3
+source     :
     - https://solus-project.com/sources/gnome-app-templates-1.tar.xz : 3e44530e4ded6db80481ad94fa48b4f59fef75c19f381fefc1c2df9e68e4127e
-homepage    : https://evolve-os.com
-component   : desktop.budgie
-license     : LGPL-2.1
-summary     : GNOME Application Templates
-builddeps   :
+homepage   : https://solus-project.com
+component  : desktop.budgie
+license    : LGPL-2.1
+summary    : GNOME Application Templates
+builddeps  :
     - pkgconfig(gobject-2.0)
     - pkgconfig(gtk+-3.0)
-description : |
+description: |
     GNOME Application Templates, work of Ikey Doherty, unofficial.
 patterns   :
-    - demos: [/usr/bin]
+    - demos : [/usr/bin]
 setup      : |
     %configure --disable-static --enable-demos
 build      : |

@@ -1,7 +1,7 @@
 <PISI>
     <Source>
         <Name>gnome-app-templates</Name>
-        <Homepage>https://evolve-os.com</Homepage>
+        <Homepage>https://solus-project.com</Homepage>
         <Packager>
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
@@ -31,7 +31,7 @@
         <Description xml:lang="en">GNOME Application Templates, work of Ikey Doherty, unofficial.
 </Description>
         <RuntimeDependencies>
-            <Dependency release="2">gnome-app-templates</Dependency>
+            <Dependency release="3">gnome-app-templates</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
@@ -44,7 +44,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="2">gnome-app-templates</Dependency>
+            <Dependency release="3">gnome-app-templates</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
@@ -52,8 +52,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2017-03-10</Date>
+        <Update release="3">
+            <Date>2017-04-09</Date>
             <Version>1</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
